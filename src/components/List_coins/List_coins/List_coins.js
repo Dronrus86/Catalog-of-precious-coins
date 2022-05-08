@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './list_coins.css';
+import {Link} from "react-router-dom";
 
 class ListCoins extends Component {
     render() {
@@ -13,7 +14,7 @@ class ListCoins extends Component {
                             </image>
                         </div>
                         <div className='coin_title'>
-                            <h4 className='listCoins_title'>Canadian Beaver</h4>
+                            <h4 className='listCoins_title'><Link to="/coin">Canadian Beaver</Link></h4>
                             <p className='listCoins_description_title'> "Canadian beaver". Unique coin with the image of a
                                 beaver.
                                 Face value - 5 cents. Created under Elizabeth II.</p>

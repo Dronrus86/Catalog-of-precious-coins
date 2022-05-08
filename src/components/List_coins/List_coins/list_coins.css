@@ -1,27 +1,31 @@
 
-.wrapper_coins{
+.wrapper_coins {
     padding-top: 60px;
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.coin_title{
+.coin_title {
     width: 50%;
 
 }
-.listCoins_title{
+
+.listCoins_title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     color: #833AE0;
-
-
 }
 
-.listCoins_description_title{
+.listCoins_title a {
+    color: #833AE0;
+    text-decoration: none;
+}
+
+.listCoins_description_title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -31,7 +35,8 @@
 
 
 }
-.list_coin{
+
+.list_coin {
     width: 450px;
     display: flex;
     justify-content: space-between;
@@ -39,10 +44,9 @@
     margin-bottom: 25px;
 
 
-
-
 }
-.img_coin{
+
+.img_coin {
     width: 120px;
     height: 120px;
 }
