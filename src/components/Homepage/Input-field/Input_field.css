@@ -25,7 +25,6 @@
 
 .inputfield_input {
     box-sizing: border-box;
-
     width: 374px;
     height: 48px;
     border: 1px solid #000000;
@@ -47,5 +46,29 @@
     border: none;
     color: #FFFFFF;
 
+}
 
+@media screen and (max-width: 991px) {
+
+    .input_field {
+        width: 45%;
+      display: block;
+    }
+
+    .inputfield_title {
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+    .inputfield_input {
+        width: 274px;
+        height: 38px;
+    }
+
+    .inputfield_button {
+        margin-top: 10px;
+        width: 70px;
+        height: 38px;
+        font-size: 12px;
+
+    }
 }

@@ -1,0 +1,23 @@
+
+.link_home {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 109%;
+
+    color: #B1ABAB;
+}
+
+.header_title {
+    margin-bottom: 0px;
+}
+
+A:Link {
+    text-decoration-line: underline;
+
+}
+
+A {
+    color: #B1ABAB;
+}

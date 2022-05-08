@@ -16,3 +16,12 @@
     color: #000000;
 
 }
+
+
+@media screen and (max-width: 991px) {
+    .header_title {
+        font-size: 22px;
+        font-weight: bold;
+
+    }
+}

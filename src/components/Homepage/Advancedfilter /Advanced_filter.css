@@ -2,7 +2,7 @@
 
 .advanced_filter_title {
     width: 200px;
-    height: 15px;
+    height: 40px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -10,4 +10,18 @@
     line-height: 109%;
     text-decoration-line: underline;
     color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+
+    .advanced_filter_title {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        margin-top: 20px;
+
+    }
 }

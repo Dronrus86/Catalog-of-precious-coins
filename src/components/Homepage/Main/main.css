@@ -27,3 +27,26 @@
 
 
 }
+
+@media screen and (max-width: 991px) {
+    .main_container{
+        display: flex;
+        flex-wrap: wrap;
+      text-align: center;
+        margin: auto;
+    }
+
+    .main_container_title{
+        font-size: 18px;
+
+    }
+
+    .main_container_show{
+        font-size: 12px;
+
+    }
+    .list_img{
+        width: 50%;
+    }
+
+}

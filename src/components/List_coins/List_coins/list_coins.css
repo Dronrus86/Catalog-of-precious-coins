@@ -1,0 +1,48 @@
+
+.wrapper_coins{
+    padding-top: 60px;
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.coin_title{
+    width: 50%;
+
+}
+.listCoins_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #833AE0;
+
+
+}
+
+.listCoins_description_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 125.5%;
+    color: #000000;
+
+
+}
+.list_coin{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+
+
+
+
+}
+.img_coin{
+    width: 120px;
+    height: 120px;
+}
