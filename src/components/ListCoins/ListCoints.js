@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import Header from "./Header/Header";
 import Inputfield from "../Homepage/Input-field/Inputfield";
-import List_coins from "./List_coins/List_coins";
-import Advanced_filter from "../Homepage/Advancedfilter /Advanced_filter";
+import ListCoins from "./ListCoins/ListCoins";
+import AdvancedFilter from "../Homepage/Advancedfilter /AdvancedFilter";
 
 class ListCoints extends Component {
     render() {
@@ -10,8 +10,8 @@ class ListCoints extends Component {
             <div>
                 <Header/>
                 <Inputfield/>
-                <Advanced_filter/>
-                <List_coins/>
+                <AdvancedFilter/>
+                <ListCoins/>
             </div>
         );
     }

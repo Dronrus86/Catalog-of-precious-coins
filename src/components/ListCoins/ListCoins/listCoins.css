@@ -10,7 +10,9 @@
     width: 50%;
 
 }
-
+li{
+    list-style-type: none;
+}
 .listCoins_title {
     font-family: 'Roboto';
     font-style: normal;
@@ -49,4 +51,14 @@
 .img_coin {
     width: 120px;
     height: 120px;
+}
+.coin_show_count{
+    padding-top: 50px;
+}
+.show_count{
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: solid 1px;
+    margin: 5px;
 }

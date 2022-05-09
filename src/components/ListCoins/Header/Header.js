@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './header_list_coins.css';
+import './headerListCoins.css';
 import {Link} from "react-router-dom";
 
 class Header extends Component {

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Advanced_filter.css'
+import './AdvancedFilter.css'
 import Search from "../../Search/Search";
 
 class AdvancedFilter extends Component {
@@ -23,7 +23,7 @@ class AdvancedFilter extends Component {
         return (
             <div className='advanced_filter'>
                 <form onSubmit={this.handleSubmit}>
-                    <button className='advanced_filter_title '
+                    <button className='advanced_filter_button'
                             type='button' onClick={this.heandleShow}>
                         Advanced filter <em/>
                         {textButton}

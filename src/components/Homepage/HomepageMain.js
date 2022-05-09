@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Header from "./Header/Header";
 import Inputfield from "./Input-field/Inputfield";
-import Advanced_filter from "./Advancedfilter /Advanced_filter";
+import Advanced_filter from "./Advancedfilter /AdvancedFilter";
 import Main from "./Main/Main";
 
 

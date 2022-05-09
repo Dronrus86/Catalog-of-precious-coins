@@ -1,6 +1,6 @@
 .coin_container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 10%;
 }
 
@@ -18,7 +18,7 @@
     line-height: 125%;
     color: #000000;
 }
-.link_coin a {
+.link_coin_home a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -51,4 +51,17 @@ td {
     color: #000000;
 
 
+}
+
+
+.list_img{
+  width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+@media screen and (max-width: 991px) {
+
+    .table {
+        padding-bottom: 120px;
+    }
 }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Input_field.css';
+import './InputField.css';
 
 class Inputfield extends Component {
     render() {
@@ -11,9 +11,9 @@ class Inputfield extends Component {
                     <label>
 
                         <input className="inputfield_input"
+                               type='text'
 
-                            // checked={this.state.isActive}
-                            // onChange={this.handleCheckboxChange}
+
                         />
 
                     </label>
